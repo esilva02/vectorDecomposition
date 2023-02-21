@@ -16,9 +16,11 @@ def main():
     # vectorForce = float(argv[1])
     # vectorAngle = float(argv[2])
 
+    # useful info for the user:
+
     # getting user input through 'input()' function:
     vecForceStr = input("Vector Force: ")
-    vecAngleStr = input("Vector Angle: ")
+    vecAngleStr = input("Vector Angle (trigonometric circle): ")
 
     # converting from string to float:
     vectorForce = float(vecForceStr)
@@ -29,10 +31,11 @@ def main():
     
     # cauculatin the x and y vectors correspondently:
     # sin = OA/tam cos = AA/tam
-    vectorX = sin(vectorAngle) * vectorForce
-    vectorY = cos(vectorAngle) * vectorForce
+    vectorX = cos(vectorAngle) * vectorForce
+    vectorY = sin(vectorAngle) * vectorForce
 
-    print(f'X for is : {vectorX:.3f}N and Y force is: {vectorY:.3f}N')
+    print(f'force on X axis: {vectorX:.3f}N')
+    print(f'force on Y axis: {vectorY:.3f}N')
 
 
 if __name__ == '__main__': main()
