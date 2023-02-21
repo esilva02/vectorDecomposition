@@ -4,7 +4,7 @@ from sys import argv
 
 def main():
 
-    #Getting the for in N and the angle in degrees from argv:
+    # Getting user input from argv:
     # if not argv[1].isdigit():
     #     print('argumet 1 is not valid, eding process...')
     #     exit()
@@ -15,8 +15,6 @@ def main():
     # converting from string to float:
     # vectorForce = float(argv[1])
     # vectorAngle = float(argv[2])
-
-    # useful info for the user:
 
     # getting user input through 'input()' function:
     vecForceStr = input("Vector Force: ")
