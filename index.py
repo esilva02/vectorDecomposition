@@ -4,7 +4,7 @@ from sys import argv
 
 def main():
 
-    # Getting user input from argv:
+    ## Getting user input from argv:
     # if not argv[1].isdigit():
     #     print('argumet 1 is not valid, eding process...')
     #     exit()
@@ -12,7 +12,7 @@ def main():
     #     print('argument 2 is not valid, ending process...')
     #     exit()
 
-    # converting from string to float:
+    ## converting from string to float:
     # vectorForce = float(argv[1])
     # vectorAngle = float(argv[2])
 
